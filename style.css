@@ -1,0 +1,51 @@
+body {
+  background-color: #1a191c;
+}
+.todo {
+  margin: 3rem auto;
+  border: 2px solid #c53a40;
+  background-color: #c53a40;
+  width: 30%;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+#todo-name {
+  width: 100%;
+  font-size: 15px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  outline-color: #1a191c;
+  border: 2px solid #1a191c;
+}
+.red {
+  color: #6f2232;
+}
+.light-blue {
+  color: #c53a40;
+}
+.blue {
+  color: #1a191c;
+}
+.gray {
+  color: rgb(78, 77, 80);
+}
+.bg-red {
+  background-color: #6f2232;
+}
+.bg-light-blue {
+  background-color: #c53a40;
+}
+.bg-blue {
+  background-color: #1a191c;
+}
+.bg-gray {
+  background-color: rgb(78, 77, 80);
+}
+.delete:hover {
+  color: #1a191c;
+  transform: scale(1.2);
+}
+p,
+span {
+  cursor: pointer;
+}
